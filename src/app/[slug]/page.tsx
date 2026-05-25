@@ -150,7 +150,7 @@ export default function BookPage() {
               marginBottom: 20,
               lineHeight: 1.5,
             }}>
-              <strong style={{ display: "block", marginBottom: 2 }}>Limited Release Notice</strong>
+              <strong style={{ display: "block", marginBottom: 2 }}>Only {book.stockLeft} Copies Left</strong>
               {book.stockNotice}
             </div>
 
@@ -314,7 +314,7 @@ export default function BookPage() {
               textAlign: "center",
               lineHeight: 1,
             }}>
-              Add to Cart
+              I Want This Book
             </button>
 
             {/* Stock Left */}
@@ -325,7 +325,7 @@ export default function BookPage() {
               fontWeight: 600,
               marginTop: 10,
             }}>
-              Only {book.stockLeft} left in stock!
+              Only {book.stockLeft} left — when they're gone, they're gone.
             </p>
 
             {/* Risk Reversal */}
@@ -336,8 +336,7 @@ export default function BookPage() {
               marginTop: 12,
               lineHeight: 1.5,
             }}>
-              Try it risk-free for 30 days. With fewer than 1% of customers ever asking for
-              their money back, chances are you won&apos;t either.
+              Try it for 30 days. If the protocol doesn't work for you, return it for a full refund — no questions asked. Fewer than 1 in 100 customers ever ask for their money back. The reason: this stuff works.
             </p>
 
             {/* Trust Badges */}
@@ -452,10 +451,10 @@ export default function BookPage() {
         {/* Accordion Sections */}
         <div style={{ marginBottom: 40 }}>
           {[
-            { title: "What's Included", content: "Every copy includes: Premium hardcover binding, instant eBook download (PDF + EPUB), exclusive bonus protocols, and free shipping worldwide." },
-            { title: "Shipping & Delivery", content: "Processing (2–4 business days): Each order is carefully packaged. Delivery (5–10 business days): Express worldwide shipping. All customs duties are included — no hidden fees, ever." },
-            { title: "Why Human Architect?", content: "Other companies charge 10x the price because they spend millions on marketing and middlemen. We do things differently. Every book is written, designed, and shipped directly by Tyson Architect. By cutting out unnecessary costs, we deliver premium content at a fraction of the price." },
-            { title: "Returns & Refunds", content: "If you're not completely satisfied, return your book within 30 days for a full refund. No questions asked. Fewer than 1% of customers ever ask for their money back." },
+            { title: "What's Included", content: "Every copy ships with: premium hardcover binding, instant eBook download (PDF + EPUB), exclusive bonus protocols you won't find anywhere else, and free express shipping worldwide. No hidden fees. No upsells at checkout. What you see is what you get." },
+            { title: "Shipping & Delivery", content: "Each order is hand-packaged by Tyson Architect. Processing takes 2–4 business days. Delivery is 5–10 business days express worldwide. All customs duties are included — you will never get a surprise bill. Track your order from the moment it leaves the studio." },
+            { title: "Why Human Architect?", content: "Other companies charge 10x because they spend millions on marketing, middlemen, and packaging. Every Human Architect book is written, designed, and shipped directly by Tyson Architect. No team. No investors. No fluff. Premium content at a fraction of the price — because the protocol matters, not the brand." },
+            { title: "Returns & Refunds", content: "If this book doesn't change how you think, move, or live — return it within 30 days for a full refund. No questions asked. No hoops. Fewer than 1 in 100 customers ever ask for their money back. The protocol works. But if it doesn't work for you, you pay nothing." },
           ].map((section, i) => (
             <details key={i} style={{ borderTop: "1px solid rgba(18,18,18,0.12)" }}>
               <summary style={{
@@ -537,7 +536,7 @@ export default function BookPage() {
               marginBottom: 20,
               color: "#121212",
             }}>
-              Complete Your Library
+              You're Incomplete Without These
             </div>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 16 }}>
               {otherBooks.map((b) => (

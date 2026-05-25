@@ -36,19 +36,19 @@ export default function Header() {
     <>
       {/* Announcement Bar */}
       <div className="announcement-bar">
-        48% Off + Free Gifts&nbsp;&nbsp;·&nbsp;&nbsp;Limited Time Only
+        First Edition Print Run — 200 Copies Per Title&nbsp;&nbsp;·&nbsp;&nbsp;Selling Fast
         <CountdownTimer />
         &nbsp;&nbsp;·&nbsp;&nbsp;Free Shipping Worldwide
       </div>
 
       {/* Payment Icons */}
       <div className="payment-icons">
-        <span>💳 Visa</span>
-        <span>💳 Mastercard</span>
-        <span>💳 Amex</span>
-        <span>🅿️ PayPal</span>
-        <span>🍎 Apple Pay</span>
-        <span>🔒 Secure Checkout</span>
+        <span>Visa</span>
+        <span>Mastercard</span>
+        <span>Amex</span>
+        <span>PayPal</span>
+        <span>Apple Pay</span>
+        <span>Secure Checkout</span>
       </div>
 
       {/* Main Header */}

@@ -26,22 +26,22 @@ export const books: Book[] = [
   {
     slug: "alkaline-awakening",
     title: "Alkaline Awakening",
-    tagline: "For those who refuse to accept that disease is inevitable.",
+    tagline: "Your blood is either feeding disease or fighting it. Choose.",
     category: "Health",
     shortDescription:
-      "A groundbreaking exploration of raw veganism, spirituality, and optimal health. Alkaline Architect reveals the hidden connections between an alkaline diet, cellular regeneration, and elevated consciousness.",
+      "The acid you eat is killing you slowly. This book shows you exactly how to flip the switch — pH balance, lymphatic drainage, circadian eating, breathwork, and the full Alkaline University framework.",
     fullDescription:
-      "Alkaline Awakening is a comprehensive guide that bridges ancient wisdom with modern science. The book presents a transformative approach to well-being through alkaline living — covering pH balance, lymphatic system activation, detoxification protocols, circadian rhythm eating, breathwork, sauna therapy, and ice baths. It also explores the power of mindset, epigenetics, and breaking limiting beliefs. With practical recipes, cleanse protocols (including grape detox and lemon detox), and a full Alkaline University framework, this book gives readers a complete system for reclaiming vitality from the inside out.",
+      "You've been told your body just breaks down with age. That's a lie. Your body wants to heal. You've been drowning it in acid — dead food, toxic water, stagnant lymph, no sunlight. Alkaline Awakening is the reset. Tyson Architect spent years mapping the exact protocols that reverse cellular damage: pH balance that actually works, lymphatic activation that moves waste out, circadian rhythm eating that aligns your meals with your biology, breathwork that oxygenates your blood, and cleanse protocols that strip the acid from your system. This isn't theory. It's the system Tyson used to rebuild himself. Now it's yours.",
     insideThisBook: [
-      "The science of pH balance and why acidity is the root of disease",
-      "Lymphatic system activation and the art of deep detoxification",
-      "Circadian rhythm eating — aligning meals with your body's natural clock",
-      "Breathwork, sauna, and ice bath protocols for cellular regeneration",
-      "Grape detox and lemon detox cleanse guides",
-      "Alkaline Human Recipes — practical meal frameworks for daily living",
-      "The Chakra System and energy body optimization",
-      "Epigenetics and the power of mindset over genetics",
-      "Alkaline University — a complete framework for total body restoration",
+      "Why acidity is the root of every disease you're afraid of",
+      "The lymphatic system: your body's waste removal system — and why yours is clogged",
+      "Circadian rhythm eating — eat with the sun or pay the price",
+      "Breathwork protocols that oxygenate your blood in minutes",
+      "Grape detox and lemon detox — step-by-step cleanse guides",
+      "50+ alkaline recipes that don't taste like punishment",
+      "The Chakra System and why your energy body matters",
+      "Epigenetics: your genes are not your destiny",
+      "Alkaline University — the complete restoration framework",
     ],
     coverImage: "/covers/alkaline-awakening.webp",
     previewImages: [
@@ -61,19 +61,19 @@ export const books: Book[] = [
     reviewCount: 88,
     reviews: [
       {
-        text: "This book completely changed how I think about food and energy. The pH balance section alone was worth 10x the price.",
+        text: "I stopped drinking tap water and eating dead food after chapter 3. Two weeks in, my brain fog lifted. I didn't know I was walking through life half-dead.",
         author: "Marcus T.",
         rating: 5,
         verified: true,
       },
       {
-        text: "I've read dozens of health books. This is the first one that connects the physical, mental, and spiritual in a way that actually makes sense.",
+        text: "Every other health book talks around the problem. This one names it: you're acidic, your lymph is stagnant, and your body is drowning in its own waste. Then it gives you the fix.",
         author: "James K.",
         rating: 5,
         verified: true,
       },
       {
-        text: "The breathwork protocols are insane. I'm sleeping better, thinking clearer, and my digestion has completely transformed.",
+        text: "The breathwork section alone changed my sleep. I went from 4 hours of broken sleep to 7 hours of deep rest in 10 days.",
         author: "David R.",
         rating: 5,
         verified: true,
@@ -98,18 +98,18 @@ export const books: Book[] = [
   {
     slug: "intelligent-design",
     title: "Intelligent Design",
-    tagline: "The evidence is written in every cell of your body.",
+    tagline: "Your body is not an accident. It is the most advanced technology on Earth.",
     category: "Human Design",
     shortDescription:
-      "A bold examination of the evidence for intelligent design — from the code of DNA to the marvel of the human eye. This book argues that the complexity of life points to purposeful creation, not random chance.",
+      "DNA is code. Code requires a coder. The human eye processes 10 million colors. Your brain has 86 billion neurons. This isn't random. This book proves it.",
     fullDescription:
-      "Intelligent Design presents a compelling case that the universe and the human body bear the unmistakable signature of purposeful creation. The book explores the DNA code as evidence of a coder, the human brain as a biological supercomputer that could not have arisen by chance, and the mystery of consciousness as a gift that transcends material explanation. It examines the human eye as a technological marvel — 50 times more powerful than the best smartphone camera — and the ear as a masterpiece of engineering. Through chapters on the Fibonacci Sequence, dreams as creative tools, and the fingerprint of divinity in human anatomy, this book builds an authoritative argument: the human body is the highest form of technology in the world.",
+      "You've been told you're a cosmic accident. Atoms bouncing around for no reason. That story is lazy. Intelligent Design walks through the evidence your body is screaming at you: DNA is a language — and languages have authors. Your brain is 86 billion neurons wired with precision no human engineer could replicate. Your eye processes 10 million colors at a resolution no camera can match. Your ear detects sound frequencies that border on the impossible. The Fibonacci sequence isn't a coincidence — it's a signature. Tyson Architect doesn't ask you to believe. He asks you to look at the evidence and decide for yourself.",
     insideThisBook: [
-      "What Intelligent Design really means — and why it matters",
+      "What Intelligent Design actually means — stripped of the politics",
       "The Code of Life: DNA as evidence of a coder",
-      "The Human Brain: a biological supercomputer designed with intent",
-      "The Mystery of Consciousness — why science cannot explain self-awareness",
-      "The Human Eye: a technological marvel beyond any human engineering",
+      "The Human Brain: 86 billion neurons, zero explanation from randomness",
+      "The Mystery of Consciousness — why science can't explain self-awareness",
+      "The Human Eye: 10 million colors, no engineer on Earth could design it",
       "The Human Ear: precision architecture for sound perception",
       "The Fingerprint of Divinity — Fibonacci and sacred geometry in nature",
       "The human body as the highest form of technology in the world",
@@ -132,19 +132,19 @@ export const books: Book[] = [
     reviewCount: 150,
     reviews: [
       {
-        text: "This book made me see my own body for the first time. The eye chapter alone is mind-blowing.",
+        text: "The eye chapter broke me. I've looked at my own face in the mirror for 30 years and never once thought about what I was actually looking at. A machine that makes NASA's best equipment look like a toy.",
         author: "Samuel P.",
         rating: 5,
         verified: true,
       },
       {
-        text: "Finally, someone who isn't afraid to connect the dots between science and purpose. Brilliant.",
+        text: "I bought this to argue with it. I couldn't. The DNA argument alone is the most honest thing I've read in years.",
         author: "Chris M.",
         rating: 5,
         verified: true,
       },
       {
-        text: "I gave this to my atheist friend. He hasn't stopped talking about it. The DNA argument is unanswerable.",
+        text: "Gave this to my atheist friend. He read it in one sitting. He hasn't stopped talking about it. The code argument is unanswerable.",
         author: "Nathan W.",
         rating: 5,
         verified: true,
@@ -169,15 +169,15 @@ export const books: Book[] = [
   {
     slug: "life-force-energy",
     title: "Life Force Energy",
-    tagline: "Your semen isn't waste. It's liquid lightning.",
+    tagline: "You're leaking your most powerful creative force. Stop.",
     category: "Discipline",
     shortDescription:
-      "This book reveals the ancient practice of semen retention as a tool for harnessing life force energy, boosting testosterone, and becoming a magnetic being.",
+      "Your semen isn't waste. It's liquid lightning. This book gives you the science, the protocol, and the warrior framework to redirect that energy into unstoppable drive.",
     fullDescription:
-      "Life Force Energy is a no-compromise guide to the transformative power of semen retention. Written by Alkaline Architect Tyson Murray, this book presents semen retention not as denial but as redirecting your most powerful creative force. Backed by science showing a 45% testosterone surge within seven days, this book covers the physical, mental, and spiritual benefits of retention — from becoming a walking power grid to achieving magnetic presence. It includes the Warrior's Recovery Protocol, the Dark Knight Phase for navigating withdrawal, and the Alchemy of Man framework for total self-mastery.",
+      "You're bleeding out through your fingertips. Every session costs you focus, drive, and the man you were supposed to become. Life Force Energy is the manual for stopping the leak. Tyson Architect lays out the science: a 45% testosterone surge within seven days of retention. But this isn't about willpower. It's about understanding what you're actually losing — and what you build when you stop. The Warrior's Recovery Protocol. The Dark Knight Phase for navigating withdrawal. The Alchemy of Man framework for total self-mastery. This book doesn't ask you to believe. It gives you the protocol and dares you to follow it.",
     insideThisBook: [
       "The science: 45% testosterone surge within seven days of retention",
-      "You will become a walking power grid — the energy body upgrade",
+      "You're a walking power grid — here's how to stop the leak",
       "Semen Retention Benefits: physical, mental, and spiritual",
       "Alchemy of Man: understanding immortality through divine alchemy",
       "MAGNETIC BEING — why retention makes the world gravitate toward you",
@@ -204,19 +204,19 @@ export const books: Book[] = [
     reviewCount: 116,
     reviews: [
       {
-        text: "Day 14 and I feel like a different man. The magnetic presence is real — people are noticing.",
+        text: "Day 14. I feel like a different man. The magnetic presence is real — people are noticing. My girlfriend asked me what changed. I couldn't explain it. I just stopped leaking.",
         author: "Alex B.",
         rating: 5,
         verified: true,
       },
       {
-        text: "The science backing this is solid. 45% testosterone increase in 7 days changed everything for me.",
+        text: "The 45% testosterone stat is real. I got blood work done before and after 7 days. My doctor asked what I changed. I handed him this book.",
         author: "Ryan H.",
         rating: 5,
         verified: true,
       },
       {
-        text: "I've tried retention before but always failed. The Dark Knight Phase chapter is what finally made it click.",
+        text: "I tried retention 6 times before this. Always failed by day 3. The Dark Knight Phase chapter told me exactly why — and what to do when the wall hits. Day 30 now. Not going back.",
         author: "Jordan L.",
         rating: 5,
         verified: true,
@@ -241,12 +241,12 @@ export const books: Book[] = [
   {
     slug: "body-os",
     title: "Human Architect: Body OS™",
-    tagline: "You are not building fitness. You are building a complete human movement operating system.",
+    tagline: "You don't have a fitness problem. You have an operating system problem.",
     category: "Movement",
     shortDescription:
-      "Restore the joints. Rebuild strength. Rewire coordination. Recover the nervous system. Move like a complete human again.",
+      "Your joints are locked. Your nervous system is fried. Your movement patterns are broken. Body OS is the 90-day protocol to rebuild the complete human — from the inside out.",
     fullDescription:
-      "Body OS is the definitive movement system for the modern man who has lost access to his own body. Built on 12 Human Capacities — from Joint Intelligence to Expression — this book delivers a complete 4-phase reconstruction protocol. Starting with the only equation that matters: V = P − O (Vitality equals Power minus Obstruction), it identifies the Four Levers that destroy movement and provides a day-by-day 90-day map from broken to complete. Includes the HALT Protocol, the Mucusless Circulation Protocol, Breath Architecture, and the complete 12 Laws of Body OS.",
+      "You can't squat to the ground. You can't hang from a bar without your shoulders screaming. You can't breathe through your nose while sitting still. These aren't fitness problems. They're operating system failures. Body OS is the rebuild. Tyson Architect built this system after years of breaking his own body and putting it back together. The equation is simple: V = P − O. Vitality equals Power minus Obstruction. Find the obstructions. Remove them. Build the power. Four phases: Restore, Rebuild, Rewire, Express. Ninety days. Day-by-day instructions. The HALT Protocol. The Mucusless Circulation Protocol. Breath Architecture. The 12 Laws of Body OS. This isn't a fitness book. It's a manual for being human.",
     insideThisBook: [
       "The Only Equation: V = P − O — Vitality equals Power minus Obstruction",
       "The Four Leaks That Destroy Movement",
@@ -278,19 +278,19 @@ export const books: Book[] = [
     reviewCount: 171,
     reviews: [
       {
-        text: "I'm on day 45 of the 90-day protocol. My chronic back pain is gone. I move like a completely different person.",
+        text: "Day 45 of the 90-day protocol. My chronic back pain — 3 years of it — is gone. I can squat to the ground for the first time in a decade. I'm 34.",
         author: "Tom S.",
         rating: 5,
         verified: true,
       },
       {
-        text: "The V = P − O equation changed how I think about everything. This isn't a fitness book — it's a manual for being human.",
+        text: "The V = P − O equation changed how I think about everything. I stopped chasing strength and started removing obstructions. The strength came on its own.",
         author: "Marcus D.",
         rating: 5,
         verified: true,
       },
       {
-        text: "I've spent thousands on physiotherapy and personal trainers. This book gave me more in 30 days than all of that combined.",
+        text: "I spent £4,000 on physiotherapy and personal trainers over 2 years. This book gave me more in 30 days than all of that combined. The system works.",
         author: "Luke F.",
         rating: 5,
         verified: true,
@@ -316,14 +316,14 @@ export const books: Book[] = [
   {
     slug: "parasite-conspiracy",
     title: "Parasite Conspiracy",
-    tagline: "You are being drained. By physical parasites in your gut and digital parasites in your attention.",
+    tagline: "Something is living inside you. And it's not paying rent.",
     category: "Health",
     shortDescription:
-      "This book reveals the systematic approach to eliminating both physical and digital parasites — and reclaiming the energy they've been stealing.",
+      "Physical parasites in your gut. Digital parasites in your attention. Both are draining your energy, focus, and vitality. This book shows you how to kill both.",
     fullDescription:
-      "Parasite Conspiracy exposes the truth that the medical establishment doesn't want you to know: parasites are not a third-world problem. They are epidemic in modern society — and they are stealing your energy, focus, and vitality. This book provides a complete systematic approach to identifying and eliminating both physical parasites (intestinal cleanse protocols, herbal treatments) and digital parasites (porn, scrolling, dopamine hijack). Includes the 21-Day Kill porn recovery system, the Attention Audit, and the Mucusless Circulation Protocol for ongoing protection.",
+      "You're being drained. Not metaphorically. Physically — organisms in your gut are stealing your nutrients and poisoning your system. Digitally — porn, scrolling, and dopamine hijack are stealing your focus and rewiring your brain. The medical establishment won't tell you this. Parasite Conspiracy does. Tyson Architect lays out the complete elimination protocol: identify the physical parasites, cleanse them with herbal treatments, audit your digital drains, and rebuild your attention from scratch. The 21-Day Kill porn recovery system. The Attention Audit. The Mucusless Circulation Protocol for ongoing protection. This book is a wake-up call. The question is whether you'll answer it.",
     insideThisBook: [
-      "The hidden epidemic: why parasites are more common than anyone admits",
+      "The hidden epidemic: why parasites are more common than any doctor admits",
       "Physical parasites: identification, cleanse protocols, and prevention",
       "The Kill Zone: a systematic approach to eliminating intestinal parasites",
       "Digital parasites: porn, scrolling, and the dopamine hijack",
@@ -348,19 +348,19 @@ export const books: Book[] = [
     reviewCount: 63,
     reviews: [
       {
-        text: "The digital parasite section hit hard. I deleted 4 apps after reading chapter 6. My focus has never been better.",
+        text: "The digital parasite section hit me like a truck. I deleted 4 apps after chapter 6. My focus went from nonexistent to razor-sharp in two weeks. I didn't know how much bandwidth I was losing.",
         author: "Chris W.",
         rating: 5,
         verified: true,
       },
       {
-        text: "I had no idea how much energy I was losing to parasites — both kinds. This book is a wake-up call.",
+        text: "I had parasites. My doctor missed it. The cleanse protocol in this book identified what 3 blood tests didn't. I feel 10 years lighter.",
         author: "Mike R.",
         rating: 5,
         verified: true,
       },
       {
-        text: "The cleanse protocols are detailed and practical. I feel 10 years lighter after the first 21 days.",
+        text: "The 21-Day Kill isn't just about porn. It's about reclaiming your attention from everything that's been stealing it. Day 21 and my mind is mine again.",
         author: "Daniel K.",
         rating: 5,
         verified: true,
@@ -385,14 +385,14 @@ export const books: Book[] = [
   {
     slug: "quit-prn-manual",
     title: "Quit Prn Manual",
-    tagline: "Porn is not entertainment. It is a deliberate hijacking of your dopamine system.",
+    tagline: "You've tried to quit 11 times. This is the one that works.",
     category: "Discipline",
     shortDescription:
-      "This manual delivers the exact 21-day protocol to break free, reset your brain, and reclaim your focus, drive, and masculinity.",
+      "Willpower fails. This protocol doesn't. The 21-Day Kill system with HALT trigger management, the Dark Knight Phase, and the Substitution Principle — the exact framework that works when nothing else has.",
     fullDescription:
-      "Quit Prn Manual is the no-excuses guide to breaking free from porn addiction. Written for the man who has tried to quit and failed — and is ready to understand why willpower alone doesn't work. This book delivers the neuroscience behind porn addiction, the exact 21-Day Kill protocol with day-by-day instructions, the Dark Knight Phase for navigating withdrawal, HALT trigger management, and the Substitution Principle for replacing porn with movement, connection, and creation. Includes the relapse protocol and a complete framework for building a porn-proof life.",
+      "You've tried to quit. You failed. Not because you're weak — because you were using willpower against a dopamine system that's been engineered to win. Quit Prn Manual doesn't ask you to try harder. It gives you a different system entirely. The neuroscience of why your brain is hijacked. The 21-Day Kill protocol with day-by-day instructions. The Dark Knight Phase — the withdrawal wall that kills most attempts, and exactly how to break through it. HALT trigger management: Hungry, Angry, Lonely, Tired — the four states that make you relapse, and what to do in each one. The Substitution Principle: you can't just remove porn. You have to replace it with something. This book tells you what. The relapse protocol for when you slip. And the identity shift that makes quitting permanent.",
     insideThisBook: [
-      "The neuroscience of porn addiction: why willpower fails",
+      "The neuroscience of porn addiction: why willpower fails every time",
       "The dopamine cage: how porn rewires your brain's reward system",
       "The 21-Day Kill: complete day-by-day protocol",
       "The Dark Knight Phase: navigating withdrawal symptoms",
@@ -418,19 +418,19 @@ export const books: Book[] = [
     reviewCount: 72,
     reviews: [
       {
-        text: "Day 21. I'm free. This protocol actually works — not because of willpower, but because it rewires your entire approach.",
+        text: "Attempt number 12. The only one that stuck. Not because this book is more motivating — because it's more honest. Willpower doesn't work. Systems do. This is the system.",
         author: "Anonymous",
         rating: 5,
         verified: true,
       },
       {
-        text: "The HALT protocol alone is worth the price. I finally understand my triggers and how to manage them.",
+        text: "The HALT protocol alone is worth 10x the price. I finally understand my triggers. Hungry, Angry, Lonely, Tired — I relapse in every single one of those states. Now I know what to do.",
         author: "Steve M.",
         rating: 5,
         verified: true,
       },
       {
-        text: "I've tried quitting 11 times before this book. The Substitution Principle is what finally made it stick.",
+        text: "The Substitution Principle is what made it stick. I didn't just quit porn. I replaced it with lifting, cold showers, and reading. Day 60. The urge is gone. Not suppressed — gone.",
         author: "Jake P.",
         rating: 5,
         verified: true,

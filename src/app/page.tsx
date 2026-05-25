@@ -5,21 +5,21 @@ import Link from "next/link";
 import { books } from "@/data/books";
 
 export default function Home() {
-  const featured = books[0];
-  const rest = books.slice(1);
+  const featured = books[3]; // Body OS — flagship
+  const rest = books.filter((b) => b.slug !== featured.slug);
 
   return (
     <main>
       {/* ── Hero ── */}
       <section className="landing-hero">
-        <h1>The Books That Rebuild Men From The Inside Out</h1>
+        <h1>Your Best Years Are Being Drained in Private.</h1>
         <p>
-          Movement. Detox. Nervous system rewiring. Faith-driven discipline.
-          Every book is a protocol — not a theory. Written by Tyson Architect.
+          Every session costs you focus, drive, and the man you were supposed to become.
+          Six protocols. One mission: rebuild from the inside out.
         </p>
         <div className="landing-hero__actions">
           <a href="#books" className="btn-primary">Shop All Books</a>
-          <a href={`/${featured.slug}`} className="btn-secondary">Bestseller: {featured.title}</a>
+          <a href={`/${featured.slug}`} className="btn-secondary">Flagship: {featured.title}</a>
         </div>
       </section>
 
@@ -62,8 +62,8 @@ export default function Home() {
             />
           </Link>
           <div>
-            <div style={{ fontSize: 11, textTransform: "uppercase", letterSpacing: 1.5, color: "#c9a46c", marginBottom: 8 }}>
-              Bestseller
+            <div style={{ fontSize: 11, textTransform: "uppercase", letterSpacing: 1.5, color: "#be4b4b", marginBottom: 8 }}>
+              Flagship Protocol
             </div>
             <h2 style={{
               fontFamily: "Helvetica, Arial, sans-serif",
@@ -91,9 +91,14 @@ export default function Home() {
             <div style={{ display: "flex", alignItems: "baseline", gap: 12, marginBottom: 24 }}>
               <span style={{ fontSize: 28, fontWeight: 400 }}>£{featured.price.toFixed(2)}</span>
               {featured.comparePrice > featured.price && (
-                <span style={{ fontSize: 18, color: "rgba(18,18,18,0.5)", textDecoration: "line-through" }}>
-                  £{featured.comparePrice.toFixed(2)}
-                </span>
+                <>
+                  <span style={{ fontSize: 18, color: "rgba(18,18,18,0.5)", textDecoration: "line-through" }}>
+                    £{featured.comparePrice.toFixed(2)}
+                  </span>
+                  <span style={{ fontSize: 13, fontWeight: 700, color: "#be4b4b", textTransform: "uppercase", letterSpacing: 1 }}>
+                    SAVE {featured.discountPercent}%
+                  </span>
+                </>
               )}
             </div>
             <div style={{ display: "flex", gap: 12 }}>
@@ -107,7 +112,7 @@ export default function Home() {
       <section id="books" className="books-section">
         <h2 className="books-section__title">The Complete Library</h2>
         <p className="books-section__subtitle">
-          Six protocols. One mission: rebuild the modern man from the inside out.
+          Six protocols. Every man weakens in the same six areas. These books fix all of them.
         </p>
         <div className="books-grid">
           {rest.map((book) => (
@@ -135,10 +140,10 @@ export default function Home() {
       <section className="feature-section">
         <h2>Why These Books Exist</h2>
         <p>
-          The modern man is broken. Not by weakness — by design. Food that poisons.
-          Screens that rewire. A world that profits from your weakness. These books
-          are the counter-attack. Written by Tyson Architect — not a guru, not a
-          influencer. A man who rebuilt himself and built the protocol so you can too.
+          Sick people are profitable. Distracted people are profitable. Weak people are profitable.
+          The system is working exactly as designed. These books are the counter-attack.
+          Written by Tyson Architect — not a guru, not an influencer.
+          A man who rebuilt himself and built the protocol so you can too.
         </p>
         <a href="#books" className="btn-primary">Start Your Rebuild</a>
       </section>
