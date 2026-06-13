@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Matrix Test</title>
+<script>
+/**
+ * Matrix Intro — Human Architect — INLINE TEST
+ */
+;(function () {
+  'use strict';
+
+  // ── Guard: once per session ──
+  try {
+    if (sessionStorage.getItem('matrixintro-done')) { console.log('Already played'); return; }
+  } catch(e) {}
+
+  console.log('MATRIX INTRO STARTING');
+
+  const TERM_BG = '#0a0a0a';
+  const TERM_GREEN = '#00ff41';
+  const TERM_DIM = '#00cc33';
+
+  // Immediately block rendering
+  const block = document.createElement('style');
+  block.textContent = 'html,body{visibility:hidden!important;overflow:hidden!important;background:#0a0a0a!important}';
+  document.head.appendChild(block);
+
+  // Build overlay
+  const overlay = document.createElement('div');
+  overlay.style.cssText = 'position:fixed;inset:0;z-index:999999;background:#0a0a0a;display:flex;align-items:center;justify-content:center;font-family:monospace;transition:opacity 2.4s ease-out';
+
+  const termBlock = document.createElement('div');
+  termBlock.style.cssText = 'padding:40px;color:#00ff41;font-size:16px;line-height:2;max-width:600px';
+
+  const line1 = document.createElement('div');
+  line1.style.cssText = 'opacity:0;transition:opacity .2s';
+  line1.textContent = '';
+  termBlock.appendChild(line1);
+
+  const line2 = document.createElement('div');
+  line2.style.cssText = 'opacity:0;transition:opacity .2s;color:#00cc33';
+  line2.textContent = '';
+  termBlock.appendChild(line2);
+
+  const line3 = document.createElement('div');
+  line3.style.cssText = 'opacity:0;transition:opacity .2s;color:#00cc33';
+  line3.textContent = '';
+  termBlock.appendChild(line3);
+
+  overlay.appendChild(termBlock);
+
+  // Append to html element directly
+  document.documentElement.appendChild(overlay);
+  console.log('Overlay appended to documentElement. Parent:', overlay.parentNode?.tagName);
+
+  // Type sequence
+  function typeText(el, text, speed, done) {
+    let i = 0;
+    el.style.opacity = '1';
+    function tick() {
+      if (i < text.length) {
+        el.textContent = text.slice(0, ++i);
+        setTimeout(tick, speed);
+      } else {
+        done();
+      }
+    }
+    tick();
+  }
+
+  console.log('Starting type sequence...');
+
+  typeText(line1, 'Wake up...', 40, function() {
+    console.log('Line 1 done');
+    setTimeout(function() {
+      typeText(line2, 'The Matrix has you.', 40, function() {
+        console.log('Line 2 done');
+        setTimeout(function() {
+          typeText(line3, 'Break free.', 40, function() {
+            console.log('Line 3 done');
+            setTimeout(function() {
+              console.log('Fading out...');
+              overlay.style.opacity = '0';
+              setTimeout(function() {
+                sessionStorage.setItem('matrixintro-done', '1');
+                overlay.remove();
+                block.remove();
+                document.body.style.visibility = '';
+                document.body.style.overflow = '';
+                console.log('DONE - site revealed');
+              }, 2500);
+            }, 1500);
+          });
+        }, 1200);
+      });
+    }, 1200);
+  });
+
+})();
+</script>
+</head>
+<body>
+<h1 style="color:red;font-size:48px;text-align:center;margin-top:200px">BODY CONTENT - YOU SHOULD SEE THIS AFTER INTRO</h1>
+<p style="text-align:center;color:white">If you see this before the intro, the script failed.</p>
+<script>
+  console.log('End of body reached. Body visibility:', window.getComputedStyle(document.body).visibility);
+</script>
+</body>
+</html>
